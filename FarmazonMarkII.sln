@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmazonMarkII", "FarmazonMarkII\FarmazonMarkII.csproj", "{FA108593-3776-46E0-B234-90E0B86D1514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmazon.DAL", "Farmazon.DAL\Farmazon.DAL.csproj", "{B2483C69-ECEF-47F9-ADCB-FDDA3E564E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA108593-3776-46E0-B234-90E0B86D1514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA108593-3776-46E0-B234-90E0B86D1514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA108593-3776-46E0-B234-90E0B86D1514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA108593-3776-46E0-B234-90E0B86D1514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2483C69-ECEF-47F9-ADCB-FDDA3E564E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2483C69-ECEF-47F9-ADCB-FDDA3E564E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2483C69-ECEF-47F9-ADCB-FDDA3E564E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2483C69-ECEF-47F9-ADCB-FDDA3E564E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D40C5E3B-9026-48D1-894A-73AC841E930A}
+	EndGlobalSection
+EndGlobal
