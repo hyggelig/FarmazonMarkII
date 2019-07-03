@@ -38,7 +38,7 @@ namespace FarmazonMarkII.Controllers
             }
         }
 
-        // GET: api/Products/5
+        // GET: api/Products/GetProduct/4
         [HttpGet("GetProduct/{id}", Name = "GetProduct")]
         public IActionResult Get(long id)
         {
@@ -95,10 +95,7 @@ namespace FarmazonMarkII.Controllers
             try
             {
                 _dataRepository.Create(product);
-                return CreatedAtRoute(
-                      "Get",
-                      new { Id = product.productId },
-                      product);
+                return Ok(product);
             }
             catch (Exception ex)
             {

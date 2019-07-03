@@ -35,7 +35,6 @@ namespace Farmazon.DAL.DataManager
 
         public void Update(Users user, Users entity)
         {
-            user.userId = entity.userId;
             user.userPassword = entity.userPassword;
             user.firstName = entity.firstName;
             user.lastName = entity.lastName;

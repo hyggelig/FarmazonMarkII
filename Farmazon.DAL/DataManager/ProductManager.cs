@@ -36,7 +36,6 @@ namespace Farmazon.DAL.DataManager
 
         public void Update(Products product, Products entity)
         {
-            product.productId = entity.productId;
             product.productName = entity.productName;
             product.productOwnerId = entity.productOwnerId;
             product.productOwnerName = entity.productOwnerName;

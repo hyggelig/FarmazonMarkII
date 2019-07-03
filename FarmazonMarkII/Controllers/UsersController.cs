@@ -74,10 +74,7 @@ namespace FarmazonMarkII.Controllers
             try
             {
                 _dataRepository.Create(user);
-                return CreatedAtRoute(
-                      "Get",
-                      new { Id = user.userId },
-                      user);
+                return Ok(user);
             }
             catch(Exception ex)
             {
@@ -105,7 +102,7 @@ namespace FarmazonMarkII.Controllers
                 }
 
                 _dataRepository.Update(userToUpdate, user);
-                return NoContent();
+                return Ok();
             }
             catch(Exception ex)
             {
@@ -127,7 +124,7 @@ namespace FarmazonMarkII.Controllers
                 }
 
                 _dataRepository.Delete(user);
-                return NoContent();
+                return Ok();
             }
             catch(Exception ex)
             {
